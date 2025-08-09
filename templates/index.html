@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit & Vegetable Pricing ChatBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="left-panel">
+        <h1>Fruit Pricing ChatBot</h1>
+        <div class="option">
+            <img src="{{ url_for('static', filename='images/veg.jpg') }}" alt="Vegetables">
+            <label><input type="radio" name="category" value="vegetable"> Vegetable Pricing ChatBot</label>
+        </div>
+        <div class="option">
+            <img src="{{ url_for('static', filename='images/fruit.jpg') }}" alt="Fruits">
+            <label><input type="radio" name="category" value="fruit" checked> Fruit Pricing ChatBot</label>
+        </div>
+    </div>
+    <div class="right-panel">
+        <div id="chat-box">
+            <div class="bot-message">Hi, I am Fruit ChatBot,<br>I can help you with the pricing of fruits,<br>Enter a fruit name to get started.</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Enter a fruit name...">
+            <button id="send-btn">Submit</button>
+        </div>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
