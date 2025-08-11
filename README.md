@@ -2,6 +2,7 @@
 
 A **Streamlit**-based chatbot that provides the latest **fruit and vegetable prices** in Andhra Pradesh by scraping live data from [market.todaypricerates.com](https://market.todaypricerates.com).  
 Simply type the name of a fruit or vegetable, and the chatbot will return its market price, retail range, and mall range.
+**🌐 Live Demo:** https://fruit-vegetable-pricing-chatbot.streamlit.app/
 
 ---
 
@@ -56,7 +57,7 @@ Retail Price Range: ₹32 - ₹35
 Mall Price Range: ₹35 - ₹40
 
 ----
-👨‍💻 Author
+**👨‍💻 Author**
 Crafted with curiosity 🚀 by Sahithi — turning ideas into code, one project at a time.
 
 ---
